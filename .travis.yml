@@ -1,7 +1,6 @@
 language: ruby
 rvm:
-  - ree
-  - 1.9.2
+  - jruby-19mode
   - 1.9.3
 bundler_args: --without development
 gemfile:
